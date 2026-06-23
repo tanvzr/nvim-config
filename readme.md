@@ -22,8 +22,17 @@ Features:
 
 ## Installation
 
-```bash
+```Bash
 git clone https://github.com/USERNAME/nvim-config.git
 cd nvim-config
 ./install.sh
 ```
+
+## Uninstall
+
+```bash
+cd shell-config
+chmod +x uninstall.sh
+./uninstall.sh
+```
+
