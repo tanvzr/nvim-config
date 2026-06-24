@@ -59,6 +59,16 @@ map("n", "<leader>fg", "<cmd>Telescope live_grep<CR>", {
 -- Clear search highlighting
 map("n", "<Esc>", "<cmd>nohlsearch<CR>", opts)
 
+-- ============================================================================
+-- Trouble.nvim
+-- ============================================================================
+
+vim.keymap.set("n", "<leader>xx", "<cmd>Trouble diagnostics toggle<CR>",
+	{ desc = "Toggle diagnostics" })
+
+vim.keymap.set("n", "<leader>xq", "<cmd>Trouble qflist toggle<CR>",
+	{ desc = "Toggle quickfix list" })
+
 
 -- ============================================================================
 -- Future keymaps
