@@ -21,4 +21,9 @@ require("config.keymaps")
 -- Plugin management
 -- ============================================================================
 
-require("lazy").setup("plugins")
+require("lazy").setup({
+  spec = {
+    { import = "plugins" },
+    { import = "plugins.ui" },
+  },
+})
