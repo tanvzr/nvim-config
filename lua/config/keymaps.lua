@@ -57,7 +57,7 @@ map("n", "<leader>fg", "<cmd>Telescope live_grep<CR>", {
 -- ============================================================================
 
 -- Clear search highlighting
-map("n", "<Esc>", "<cmd>nohlsearch<CR>", opts)
+map("n", "<leader>ch", "<cmd>nohlsearch<CR>", opts)
 
 -- ============================================================================
 -- Trouble.nvim

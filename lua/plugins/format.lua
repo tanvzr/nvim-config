@@ -61,7 +61,7 @@ return {
 			-- Format current file
 			-- ======================================================================
 
-			vim.keymap.set("n", "<leader>f", function()
+			vim.keymap.set("n", "<leader>fc", function()
 				require("conform").format({
 
 					-- Run asynchronously
